@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Recoleta";
+  src: url("https://fonts.cdnfonts.com/s/19623/Recoleta-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@theme {
+  --color-brand-dark: #3a3a3a;
+  --color-brand-bg: #f9f7f4;
+}
+
+@layer base {
+  body {
+    @apply antialiased;
+    font-family: "Poppins", sans-serif;
+    background-color: #f9f7f4;
+    color: #3a3a3a;
+  }
+}
